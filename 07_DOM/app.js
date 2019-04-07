@@ -52,7 +52,8 @@ This will hides the dice image, that is present in the center of webpage.
     context.
 
 `CallBack function` is a function which calls another function which is given to it as an argument when the conditions are met.
-In our case it is the `EvenetListener function`. We can also, directly pass an `Annonymous function` to the Callback function.
+These are also known as Higher Order functions. This is possible becuase in JavaScript, we have `first-class functions`.
+In our case it is the `EventListener function`. We can also, directly pass an `Annonymous function` to the Callback function.
 (Annonymous function is a function which is not assigned with any function name and thus can be only used once)
 */
 document.querySelector('.btn-roll').addEventListener('click', function() {
